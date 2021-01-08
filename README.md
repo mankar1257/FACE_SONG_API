@@ -27,7 +27,6 @@ This is an API that predicts the song based on the face of the listener, given t
 - [Contributing](#contributing)
 - [License](#license)
 - [Get Help](#get-help)
-- [Motivation](#motivation) 
 
 
 ## Getting Started 
@@ -68,7 +67,7 @@ Befour we start, prepare the following:
 ## Overview 
 
 
-## Process flow :
+#### Process flow :
 
 <img src="https://github.com/mankar1257/FACE_SONG_API/blob/main/Images/Image2.png" alt="drawing" width="750" height ="400"/>
 

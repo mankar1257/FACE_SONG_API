@@ -12,6 +12,7 @@ Using AWS Sagemaker, API Gateway, Lambda, cloud9, and Deep learning
 ### Suggesting songs using Face emotions 
 
 Songs play a crucial  role in our life,  I am a person who likes to listen to songs while working on my PC 
+
 Now, Image a situation when You are working on your personal computer while enjoying music and your computer knows which song to play next to keep you pumped up !!!
 
 With the evolution of machine learning technologies, This is possible 
@@ -31,7 +32,7 @@ This is an API that predicts the song based on the face of the listener, given t
 
 ## Getting Started 
 
-In order to memic the project , you need to have 
+In order to mimic the project , you need to have 
 
   1. an AWS account (free tier ) 
   
@@ -39,10 +40,12 @@ In order to memic the project , you need to have
   
   3. Understanding of the Machine learning and deep learning 
 
-Befour we start, prepare the following things : 
+Befour we start, prepare the following: 
 
-AWS sagemaker instance 
-S3 bucket  
+1. AWS sagemaker instance 
+
+2. S3 bucket  
+
 
 ### upload the follwoing files in the sagemaker jupiter notebook directry 
 
@@ -67,7 +70,7 @@ S3 bucket
 
 ## Process flow :
 
-<img src="https://github.com/mankar1257/FACE_SONG_API/blob/main/Images/Image2.png" alt="drawing" width="650" height ="300"/>
+<img src="https://github.com/mankar1257/FACE_SONG_API/blob/main/Images/Image2.png" alt="drawing" width="750" height ="400"/>
 
 
 This process includes 
@@ -102,6 +105,6 @@ This project is licensed under the [GPL License](https://github.com/mankar1257/F
 
 ## Get Help
 - Contact : mankarvaibhav819@gmail.com 
-- If appropriate, [open an issue](https://github.com/aivatanproducts/aoc001-intelliSearch/issues) on GitHub
+- If appropriate, [open an issue](https://github.com/mankar1257/FACE_SONG_API/issues) on GitHub
 
 

@@ -15,8 +15,6 @@ Songs play a crucial  role in our life,  I am a person who likes to listen to so
 
 Now, imagine a situation when You are working on your personal computer while enjoying music and your computer knows which song to play next to keep you pumped up !!!
 
-With the evolution of machine learning technologies, This is possible 
-
 This is an API that predicts the song based on the face of the listener, given the image, it detects the face, predicts the emotion, and accordingly suggests the songs :)
 
 ## Table of content
@@ -31,13 +29,7 @@ This is an API that predicts the song based on the face of the listener, given t
 
 ## Getting Started 
 
-In order to mimic the project, you need to have 
-
-  1. an AWS account (free tier ) 
-  
-  2. A basic understanding of AWS services ( s3, Sagemaker, Lambda, API gateway, Cloud9 .. )
-  
-  3. Understanding of Machine learning and deep learning 
+In order to mimic the project, you need to have an AWS account 
 
 Before we start, prepare the following: 
 

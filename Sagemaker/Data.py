@@ -5,7 +5,7 @@ import numpy as np
 
 
 class Data:
-    """ class for data loading and preprossing """
+    """ class for data loading and preprocessing  """
 
     def __init__(self):
 
@@ -25,7 +25,7 @@ class Data:
 
     def Get_data(self):
         """
-        To retrive the data in the desiered format
+        To retrieve the data in the desired format
 
         Parameters:
         Null
@@ -45,7 +45,7 @@ class Data:
         # preparing one hot encoding
         self.df['y_data'] = self.df['emotion'].apply(lambda x : self.one_hot_encode(x))
 
-        #preparing traning dataset
+        #preparing training dataset
 
         df_train = self.df[self.df[' Usage'] == 'Training']
         X_train = np.array([i for i in df_train['X_data']])
@@ -62,3 +62,5 @@ class Data:
         X_test /= 255
 
         return X_train,y_train,X_test,y_test
+    
+    

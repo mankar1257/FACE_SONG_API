@@ -13,7 +13,7 @@ Using AWS Sagemaker, API Gateway, Lambda, cloud9, and Deep learning
 
 Songs play a crucial  role in our life,  I am a person who likes to listen to songs while working on my PC 
 
-Now, Image a situation when You are working on your personal computer while enjoying music and your computer knows which song to play next to keep you pumped up !!!
+Now, imagine a situation when You are working on your personal computer while enjoying music and your computer knows which song to play next to keep you pumped up !!!
 
 With the evolution of machine learning technologies, This is possible 
 

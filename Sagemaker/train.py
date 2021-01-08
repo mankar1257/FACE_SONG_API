@@ -1,4 +1,4 @@
-
+ 
 import argparse
 import os
 import numpy as np
@@ -27,7 +27,7 @@ def get_model():
 
     Returns:
 
-    kears Modle arcitecture
+    Keras Modle architecture
 
    """
 
@@ -141,7 +141,7 @@ def get_class_weights(y_train,y_test):
 
     """
 
-    # reversing one hot encoding
+    # reversing the one-hot encoding
     Y = []
 
     encoded_Y = np.concatenate((y_train, y_test))
@@ -155,7 +155,7 @@ def get_class_weights(y_train,y_test):
                                                  np.unique(Y),
                                                  Y)
 
-    # as the keras model takes the class weights as a directory
+    # as the Keras model takes the class weights as a directory
     class_weights = {}
 
     for i in range(7):
@@ -187,7 +187,7 @@ def _parse_args():
     parser = argparse.ArgumentParser()
 
     # Data, model, and output directories
-    # model_dir is always passed in from SageMaker. By default this is a S3 path under the default bucket.
+    # model_dir is always passed in from SageMaker. By default, this is an S3 path under the default bucket.
     parser.add_argument('--model_dir', type=str)
 
     parser.add_argument('--sm-model-dir', type=str, default=os.environ.get('SM_MODEL_DIR'))
@@ -220,3 +220,6 @@ if __name__ == "__main__":
     if args.current_host == args.hosts[0]:
         # save model to an S3 directory
         face_emotion_recognizer.save(os.path.join(args.sm_model_dir, '00000001'), 'my_model.h5')
+
+
+

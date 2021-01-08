@@ -1,11 +1,10 @@
 ## Getting started 
 
+<img src="https://github.com/mankar1257/FACE_SONG_API/blob/main/Images/Image2.png" alt="drawing" width="750" height ="400"/>
 
 
 
-
-
-here are two lambda functions 
+there are two lambda functions 
 
 ### parent lambda 
 

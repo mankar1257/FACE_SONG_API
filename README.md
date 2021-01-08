@@ -31,22 +31,22 @@ This is an API that predicts the song based on the face of the listener, given t
 
 ## Getting Started 
 
-In order to mimic the project , you need to have 
+In order to mimic the project, you need to have 
 
   1. an AWS account (free tier ) 
   
-  2. Basic understanding AWS services ( s3 , Sagemaker , Lambda , API gateway , Cloud9 .. )
+  2. A basic understanding of AWS services ( s3, Sagemaker, Lambda, API gateway, Cloud9 .. )
   
-  3. Understanding of the Machine learning and deep learning 
+  3. Understanding of Machine learning and deep learning 
 
-Befour we start, prepare the following: 
+Before we start, prepare the following: 
 
-1. AWS sagemaker instance 
+1. AWS Sagemaker instance 
 
 2. S3 bucket  
 
 
-### upload the follwoing files in the sagemaker jupiter notebook directry 
+### upload the following files in the Sagemaker Jupiter notebook directory 
 
   1. [train.py](https://github.com/mankar1257/FACE_SONG_API/blob/main/Sagemaker/train.py)
   
@@ -105,5 +105,4 @@ This project is licensed under the [GPL License](https://github.com/mankar1257/F
 ## Get Help
 - Contact : mankarvaibhav819@gmail.com 
 - If appropriate, [open an issue](https://github.com/mankar1257/FACE_SONG_API/issues) on GitHub
-
 
